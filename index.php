@@ -13,6 +13,20 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="app">
+      <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Lista Arrey</h1>
+            </div>
+            <div class="col-12 mt-3">
+                <ul>
+                    <li v-for="todo, index in todoList" >{{ todo }}</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js" type="text/javascript"></script>
 </body>
 </html>
